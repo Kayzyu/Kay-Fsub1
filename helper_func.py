@@ -21,6 +21,8 @@ async def is_subscribed(filter, client, update):
         return True
     if not FORCE_SUB_CHANNEL2: 
         return True
+    if not FORCE_SUB_CHANNEL2: 
+        return True
     if not FORCE_SUB_GROUP:
         return True
     if not FORCE_SUB_GROUP1:
